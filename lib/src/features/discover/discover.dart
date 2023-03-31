@@ -27,7 +27,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
 
   @override
   void dispose() {
-    _controller.dispose();
+    //_controller.dispose();
     scrollController.dispose();
     super.dispose();
   }
@@ -94,7 +94,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
                 padding: const EdgeInsets.symmetric(horizontal: 25),
                 child: Text(
                   'Discover',
-                  style: Theme.of(context).textTheme.headline4!.copyWith(
+                  style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                       fontWeight: FontWeight.bold, color: Colors.black),
                 ),
               ),

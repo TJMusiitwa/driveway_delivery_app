@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void dispose() {
-    _controller.dispose();
+    //_controller.dispose();
     scrollController.dispose();
     super.dispose();
   }
@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Text(
                         'Restaurants',
-                        style: Theme.of(context).textTheme.headline4!.copyWith(
+                        style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                             fontWeight: FontWeight.bold, color: Colors.black),
                       ),
                       const Spacer(),
@@ -250,7 +250,7 @@ class HomeItem extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
                 style: Theme.of(context)
                     .textTheme
-                    .caption!
+                    .bodySmall!
                     .copyWith(fontWeight: FontWeight.bold, color: Colors.grey),
               ),
             ),

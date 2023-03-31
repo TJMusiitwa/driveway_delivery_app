@@ -38,7 +38,7 @@ class _NotificationsPageState extends State<NotificationsPage> {
                 padding: const EdgeInsets.only(left: 15, bottom: 10),
                 child: Text(
                   _selectedIndex == 0 ? 'Notifications' : 'Messages',
-                  style: Theme.of(context).textTheme.headline4!.copyWith(
+                  style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                       fontWeight: FontWeight.bold,
                       color: Theme.of(context).colorScheme.onSurface),
                 ),
@@ -62,7 +62,7 @@ class _NotificationsPageState extends State<NotificationsPage> {
                                 'Jane Doe',
                                 style: Theme.of(context)
                                     .textTheme
-                                    .subtitle1!
+                                    .titleMedium!
                                     .copyWith(
                                         fontWeight: FontWeight.bold,
                                         color: Theme.of(context)
@@ -98,7 +98,7 @@ class _NotificationsPageState extends State<NotificationsPage> {
                                 'Jane Doe',
                                 style: Theme.of(context)
                                     .textTheme
-                                    .subtitle1!
+                                    .titleMedium!
                                     .copyWith(
                                         fontWeight: FontWeight.bold,
                                         color: Theme.of(context)

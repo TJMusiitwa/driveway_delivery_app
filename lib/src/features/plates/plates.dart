@@ -30,7 +30,7 @@ class PlatesPage extends StatelessWidget {
                 children: [
                   Text(
                     'Plates',
-                    style: Theme.of(context).textTheme.headline4!.copyWith(
+                    style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                         fontWeight: FontWeight.bold, color: Colors.black),
                   ),
                   IconButton(

@@ -62,7 +62,7 @@ class ProfilePage extends StatelessWidget {
                           'MJ',
                           style: Theme.of(context)
                               .textTheme
-                              .headline6!
+                              .titleLarge!
                               .copyWith(color: Theme.of(context).primaryColor),
                         ),
                       ),
@@ -84,7 +84,7 @@ class ProfilePage extends StatelessWidget {
                   ),
                   title: Text(
                     'Michaela Jacobs',
-                    style: Theme.of(context).textTheme.headline6,
+                    style: Theme.of(context).textTheme.titleLarge,
                   ),
                   subtitle: const Text('Warrior Gourmand'),
                 ),
