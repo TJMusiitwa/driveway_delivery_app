@@ -76,6 +76,7 @@ class PlatesPage extends StatelessWidget {
                 child: Row(
                   children: [
                     FilterChip(
+                        selected: true,
                         label: const Text('Recently Crafted'),
                         onSelected: (filter) {}),
                     const SizedBox(width: 10),

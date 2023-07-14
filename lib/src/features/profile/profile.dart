@@ -34,9 +34,9 @@ class ProfilePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: const [
+                children: [
                   Icon(Icons.star_outline),
                   Icon(Icons.hotel_class_outlined),
                   Icon(Icons.auto_awesome_outlined)
