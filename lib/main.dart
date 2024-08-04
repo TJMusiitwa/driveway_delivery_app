@@ -7,14 +7,16 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Driveway',
       theme: ThemeData.from(
-          colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF4952DF)),
+          colorScheme: ColorScheme.fromSeed(
+              seedColor: const Color(0xFF4952DF),
+              dynamicSchemeVariant: DynamicSchemeVariant.fidelity),
           textTheme:
               GoogleFonts.ibmPlexSansTextTheme(Theme.of(context).textTheme),
           useMaterial3: true),
