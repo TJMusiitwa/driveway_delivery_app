@@ -7,7 +7,7 @@ import '../src/features/plates/plates.dart';
 import '../src/features/profile/profile.dart';
 
 class Nav extends StatefulWidget {
-  const Nav({Key? key}) : super(key: key);
+  const Nav({super.key});
 
   @override
   State<Nav> createState() => _NavState();

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_polygon_clipper/flutter_polygon_clipper.dart';
 
 class ProfilePage extends StatelessWidget {
-  const ProfilePage({Key? key}) : super(key: key);
+  const ProfilePage({super.key});
 
   static final badges = {
     Icons.rocket: Colors.blue,

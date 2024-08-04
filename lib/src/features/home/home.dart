@@ -8,7 +8,7 @@ enum ViewType {
 }
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   static const List<String> tags = [
     'Fastest Delivery',
@@ -200,10 +200,9 @@ class _HomePageState extends State<HomePage> {
 
 class HomeItem extends StatelessWidget {
   const HomeItem({
-    Key? key,
+    super.key,
     required ViewType viewType,
-  })  : _viewType = viewType,
-        super(key: key);
+  })  : _viewType = viewType;
 
   final ViewType _viewType;
 
