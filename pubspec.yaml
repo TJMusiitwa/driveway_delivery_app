@@ -6,7 +6,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.4.3 <4.0.0"
+  sdk: ">=3.5.4 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -24,8 +24,8 @@ dependencies:
   sliding_top_panel: ^0.0.7
 dev_dependencies:
   flutter_native_splash: any
-  flutter_launcher_icons: ^0.13.1
-  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
 
